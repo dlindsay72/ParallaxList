@@ -23,11 +23,16 @@ class ListVC: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 4
+        return imageArray.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: CellIdentifier.parallaxCell.rawValue, for: indexPath) as? ParallaxCell else {
+            return UITableViewCell()
+        }
+        cell.configureCell(withImage: imageArray[indexPath.row], title: nameArray[indexPath.row])
+        
+        return cell
     }
     
     

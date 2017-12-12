@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7B4F8B2D1FDF4FBF00F8CCE8 /* ParallaxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F8B2C1FDF4FBF00F8CCE8 /* ParallaxCell.swift */; };
+		7B4F8B2F1FDF523A00F8CCE8 /* Images+Names.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F8B2E1FDF523A00F8CCE8 /* Images+Names.swift */; };
 		7B53503A1FDF4571000D0D8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5350391FDF4571000D0D8F /* AppDelegate.swift */; };
 		7B53503C1FDF4571000D0D8F /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B53503B1FDF4571000D0D8F /* ListVC.swift */; };
 		7B53503F1FDF4571000D0D8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B53503D1FDF4571000D0D8F /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		7B4F8B2C1FDF4FBF00F8CCE8 /* ParallaxCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxCell.swift; sourceTree = "<group>"; };
+		7B4F8B2E1FDF523A00F8CCE8 /* Images+Names.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Images+Names.swift"; sourceTree = "<group>"; };
 		7B5350361FDF4571000D0D8F /* ParallaxList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParallaxList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B5350391FDF4571000D0D8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B53503B1FDF4571000D0D8F /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				7B5350401FDF4571000D0D8F /* Assets.xcassets */,
 				7B5350421FDF4571000D0D8F /* LaunchScreen.storyboard */,
 				7B5350451FDF4571000D0D8F /* Info.plist */,
+				7B4F8B2E1FDF523A00F8CCE8 /* Images+Names.swift */,
 			);
 			path = ParallaxList;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			files = (
 				7B4F8B2D1FDF4FBF00F8CCE8 /* ParallaxCell.swift in Sources */,
 				7B53503C1FDF4571000D0D8F /* ListVC.swift in Sources */,
+				7B4F8B2F1FDF523A00F8CCE8 /* Images+Names.swift in Sources */,
 				7B53503A1FDF4571000D0D8F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 999T2QHS45;
 				INFOPLIST_FILE = ParallaxList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dreamerongo.ParallaxList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -320,6 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 999T2QHS45;
 				INFOPLIST_FILE = ParallaxList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dreamerongo.ParallaxList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
